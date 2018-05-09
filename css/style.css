@@ -1,0 +1,820 @@
+@font-face {
+    font-family: avo;
+    src: url("../fonts/UTM Avo.ttf");
+}
+
+@font-face {
+    font-family: avobold;
+    src: url("../fonts/UTM AvoBold.ttf");
+}
+
+@font-face {
+    font-family: helvetins;
+    src: url("../fonts/UTM HelvetIns.ttf");
+}
+
+body {
+    font-family: avo;
+}
+
+img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.row-eq-height {
+    display: flex;
+}
+
+.cachtren {
+    margin-top: 2em;
+}
+
+.cachdong {
+    margin-bottom: 2em;
+}
+
+.center-text {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.custom-margin {
+    margin-left: -30px;
+}
+
+.active a {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+
+/* ----------------Home------------------- */
+
+
+/* Navbar */
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    background: none;
+}
+
+.navbar a {
+    color: white;
+    text-shadow: none !important;
+}
+
+.dropdown-menu>li>a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #F7941D !important;
+}
+
+.navbar-black {
+    background: black !important;
+}
+
+.nav1,
+.nav2 {
+    margin-bottom: 0;
+    border: 0 !important;
+    border-radius: 0 !important;
+    border-color: transparent;
+    z-index: 999;
+}
+
+.nav1 {
+    font-size: 8.5pt;
+    background: rgba(0, 0, 0, 0.3);
+    height: 80px;
+}
+
+.brand1 {
+    font-size: 25pt;
+    font-family: avobold;
+    height: 80px;
+    line-height: 45px;
+}
+
+.nav1 .navbar-toggle {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+.nav1 li a {
+    line-height: 45px;
+}
+
+.nav2 {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.brand2 {
+    margin-right: 0 !important;
+}
+
+.mydropdown {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    box-shadow: none;
+    width: 250px;
+    padding: 0;
+    top: 105%;
+}
+
+.mydropdown ul {
+    padding: 0;
+}
+
+.mydropdown li {
+    border-bottom: 1px solid #F7941D;
+    padding: 5px;
+}
+
+.mydropdown li a:hover {
+    background: none;
+}
+
+.search img {
+    width: 15px;
+}
+
+.search input[type="text"] {
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #F7941D;
+    border-radius: 0;
+}
+
+.search2 {
+    display: none !important;
+    max-width: 200px;
+    padding-left: 15px;
+}
+
+.search2 input[type="text"] {
+    background: none;
+    border: 0;
+    height: 30px;
+    width: 200px;
+    color: #F7941D;
+}
+
+.dropsearch {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.activelink {
+    color: #F7941D !important;
+    font-family: avobold;
+}
+
+header {
+    margin-bottom: 2em;
+    position: relative;
+}
+
+
+/* Slider 1 */
+
+.slider1 .carousel-indicators {
+    z-index: 1;
+}
+
+.slider1 .carousel-indicators li {
+    display: inline-block;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.slider1 .carousel-indicators img {
+    width: 17px;
+    margin-top: -14px;
+    margin-left: -3px;
+}
+
+.slider1 .carousel-indicators .active {
+    margin: 10px;
+    background-color: #F7941D;
+}
+
+.slider1 .item img {
+    filter: brightness(70%);
+}
+
+.slider1 .my-caption {
+    top: 55%;
+    transform: translateY(-50%);
+    text-shadow: none;
+}
+
+.slider1 .my-caption h3 {
+    font-family: avobold;
+    font-size: 40pt;
+}
+
+.slider1 .my-caption p {
+    font-family: avo;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+.slider1 .btn-more {
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 8pt;
+    padding: 1em 3em;
+    margin-top: 5em;
+    transition: .5s ease-in-out;
+}
+
+.slider1 .btn-more:hover {
+    color: black;
+    background: rgba(255, 255, 255, 1);
+}
+
+
+/* Main content */
+
+.part-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: avobold;
+    font-size: 22pt;
+    background: #F7941D;
+    padding: .3em 2em;
+    display: inline-block;
+}
+
+.part-title2 {
+    font-size: 16pt;
+    text-transform: none;
+    padding: .3em .5em;
+}
+
+.gioithieu img {
+    width: 40px;
+    height: 40px;
+}
+
+.gt-col {
+    width: 80%;
+}
+
+.gt-col h3 {
+    font-family: avobold;
+    font-size: 16pt;
+}
+
+.bg-title1 {
+    color: white;
+    text-align: center;
+    font-family: avobold;
+    background-size: contain;
+    padding: 3em 0 1em 0;
+    margin: 5em 0;
+}
+
+.chuthich {
+    color: #58595B;
+    font-size: 18pt;
+}
+
+.mauthietke {
+    width: 100%;
+    background-size: contain;
+    margin: 3em 0;
+    height: 80px;
+}
+
+.mauthietke ul {
+    width: 100%;
+    list-style-type: none !important;
+    display: table;
+    table-layout: fixed;
+    padding: 0;
+}
+
+.mauthietke li {
+    text-align: center;
+    display: table-cell;
+    width: auto;
+}
+
+.mauthietke li a {
+    color: white;
+    font-size: 9pt;
+    line-height: 80px;
+}
+
+.mauthietke2 {
+    display: none;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.btn-base {
+    background: #F7941D;
+    color: white;
+    font-style: italic;
+    border: none;
+    float: right;
+    padding: .5em 1.5em;
+    border-radius: 0;
+}
+
+.box1 {
+    color: white;
+    background: #F7941D;
+    width: 100%;
+    height: 150px;
+    font-size: 20pt;
+    font-family: avobold;
+    text-align: center;
+    line-height: 150px;
+}
+
+.tintuc a {
+    color: #414042;
+}
+
+.loaitintuc {
+    text-align: center;
+}
+
+.loaitintuc a {
+    background: #E6E7E8;
+    color: #414042;
+    text-transform: uppercase;
+    font-family: avobold;
+    padding: 1.5em 1.5em;
+    display: block;
+}
+
+
+/* Slider2 */
+
+.slider2 {
+    overflow: hidden;
+}
+
+.slider2 .phongcach {
+    position: relative;
+    height: 45em;
+}
+
+.slider2 .phongcach img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+    transition: .3s ease-in-out;
+}
+
+.slider2 .phongcach img:hover {
+    filter: brightness(100%);
+}
+
+.slider2 h3 {
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    padding-right: 2em;
+    font-family: helvetins;
+    color: white;
+}
+
+.slider2 button {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+.mycontrol {
+    top: 50%;
+    background: none;
+}
+
+.mycontrol img {
+    width: 25px;
+}
+
+
+/* Slider3 */
+
+.slider3 {
+    overflow: hidden;
+}
+
+.smallslide {
+    padding: 2em;
+    text-align: center;
+}
+
+.smallslide img {
+    border: 3px solid #414042;
+    border-radius: 3px;
+    max-width: 200px;
+    transition: .3s ease-in-out;
+    filter: brightness(70%);
+}
+
+.smallslide img:hover {
+    border: 3px solid #F7941D;
+    filter: brightness(100%);
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+    line-height: 2em;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.footer-title {
+    text-align: center;
+    font-family: avobold;
+    border-bottom: 1px solid white;
+    height: 3em;
+    line-height: 3em;
+}
+
+.footer-lienket {
+    padding: 2em 0;
+}
+
+.footer-lienhe {
+    padding: 1em 0;
+    border-top: 1px solid white;
+}
+
+.footer-lienhe td img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-lienhe table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.footer-logo {
+    line-height: 150px;
+}
+
+.lkxh {
+    height: 150px;
+}
+
+.lkxh ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.lkxh li {
+    float: left;
+}
+
+.lkxh img {
+    width: 34px;
+    margin-left: 10px;
+}
+
+.lkxh img:hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.copyright {
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    color: #58595B;
+    background: #F1F2F2;
+}
+
+
+/* End Footer */
+
+
+/* ---------------------End Home------------------------ */
+
+
+/* ---------------------Tin Tức------------------------ */
+
+.tabtintuc a {
+    font-family: avobold;
+    font-size: 12pt !important;
+}
+
+.mtk-active {
+    color: #ccc !important;
+    font-family: avobold;
+}
+
+.newsbox1 {
+    height: 250px;
+}
+
+.newsbox1 p {
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+    color: white;
+    font-family: avobold;
+    background: rgba(247, 148, 29, 0.6);
+    padding: 10px;
+}
+
+.tuyendung {
+    background: #E6E7E8;
+    height: 250px;
+    padding: 10px 15px;
+}
+
+.tuyendung h3 {
+    font-family: avobold;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.tuyendung p a {
+    font-size: 9pt;
+    color: black;
+}
+
+.smallnews p a {
+    font-size: 8.5pt;
+    color: black;
+}
+
+.newsbox2 ul {
+    list-style-image: url(../images/liststyle.png);
+}
+
+.newsbox2 ul li a {
+    font-size: 8.5pt;
+    color: black;
+}
+
+.newsbox2 h3 {
+    font-size: 14pt;
+    background: url(../images/line1.png) no-repeat center center;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+.newsbox2 h3 span {
+    background: white;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.sanphammoi {
+    position: relative;
+    height: 200px;
+}
+
+.sanphammoi img {
+    height: 200px;
+}
+
+.sanphammoi span a {
+    color: white;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* ---------------------End Tin Tức-------------------- */
+
+
+/* ---------------------- Lien He---------------------- */
+
+.form-lienhe {
+    padding: 3em;
+    color: #414042;
+}
+
+.col-md-7 > p > b {
+    font-family: avobold;
+}
+
+.table-lienhe td {
+    padding: .5em;
+}
+
+.textbox-lienhe {
+    border: 1px solid #ccc !important;
+    border-radius: 0;
+    width: 220px;
+    height: 30px;
+}
+
+.table-lienhe textarea {
+    border-radius: 0;
+}
+
+.guidi {
+    border: none;
+    background: #F7941D;
+    color: white;
+    padding: .5em 1em;
+    float: left;
+    cursor: pointer;
+}
+
+.vietlai {
+    border: none;
+    background: #F7941D;
+    color: white;
+    padding: .5em 1em;
+    float: right;
+    cursor: pointer;
+}
+
+
+/* -------------- End Lien He --------------- */
+
+
+/* -------------- Khách hàng ---------------- */
+
+.khachhang {
+    background: #E6E7E8 !important;
+    text-align: center;
+}
+
+.khachhang img {
+    width: 89%;
+    margin: 5%;
+}
+
+
+/* ------------ End Khách hàng -------------- */
+
+
+/* ----------- Thiết kế nội thất ------------ */
+
+.noithat img {
+    width: 100%;
+}
+
+.noithat-chuthich {
+    background: #E6E7E8;
+    color: #414042;
+    transition: .3s ease-in-out;
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.noithat-chuthich:hover {
+    color: white;
+    background: #F7941D;
+}
+
+.noithat-chuthich a {
+    color: #414042;
+    display: block;
+}
+
+.noithat-chuthich a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.noithat-chuthich a h3 {
+    font-family: avobold;
+    font-size: 12pt;
+}
+
+.noithat-mota img {
+    width: 100%;
+}
+
+
+/* ----------- End Thiết kế nội thất ------------ */
+
+
+/* ---------- Sản phẩm phòng khách -------------- */
+
+.sp-tongquan img {
+    width: 100%;
+}
+
+.ul1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul1 li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: #F7941D;
+}
+
+.ul1 li a {
+    color: white;
+    display: block;
+    padding: .5em 1.5em;
+}
+
+.ul1-active {
+    color: white;
+    background: #414042;
+}
+
+.sp-cai img {
+    width: 100%;
+}
+
+.sp-cai {
+    padding: 0;
+}
+
+.sp-cai p {
+    padding: 10px;
+}
+
+.sp-cai-box {
+    width: 80%;
+    border: 2px solid #414042;
+}
+
+.sp-chitiet {}
+
+
+/* ---------End Sản phẩm phòng khách ------------ */

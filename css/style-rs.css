@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .search2 {
+        display: block !important;
+    }
+    .search {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Home */
+    .mauthietke {
+        display: none;
+    }
+    .mauthietke2 {
+        display: block;
+    }
+    .mauthietke2 select {
+        color: white;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 30px;
+        font-family: avo;
+    }
+    .btn-more {
+        margin-top: 1em !important;
+    }
+    .slider1 .carousel-indicators li {
+        margin: 5px;
+    }
+    .slider1 .carousel-indicators .active {
+        margin: 5px;
+    }
+    .boxxx {
+        display: none;
+    }
+    .tintuc a {
+        font-size: 8pt;
+    }
+    .footer-title,
+    .footer-lienket {
+        display: none;
+    }
+    .footer-logo {
+        line-height: 80px;
+        padding-left: 30px;
+    }
+    .lkxh {
+        height: 50px;
+    }
+    .lkxh ul {
+        margin: 0;
+    }
+    .part-title {
+        font-size: 12pt;
+        padding-left: .3em .5em;
+    }
+    .chuthich {
+        display: none;
+    }
+    /* End Home */
+    /* Sản phẩm bàn trà */
+    .img-chitiet, .chitiet1 {
+        padding-left: 30px !important;
+    }
+    /* End sản phẩm bàn trà */
+}
+
+@media (max-width: 768px) {
+    /* Home */
+    .gt-col {
+        width: 100%;
+    }
+    .anhphu {
+        display: none;
+    }
+    /* Slider1 */
+    .slider1 .my-caption h3 {
+        font-size: 20pt;
+    }
+    .slider1 .my-caption p {
+        font-size: 12pt;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    /* End Slider1 */
+    .bienmat2 {
+        display: none;
+    }
+    .tintuc a {
+    font-size: 11pt;
+}
+    /* End home */
+    /* Tin tức */
+    .bienmat {
+        display: none;
+    }
+    .smallnews p a {
+        font-size: 11pt;
+    }
+    .newsbox2 ul li a {
+        font-size: 11pt;
+    }
+    /* End tin tức */
+
+
+}
+
+@media (max-width: 480px) {
+    /* Slider1 */
+    .my-caption {
+        display: none;
+    }
+    /* End Slider1 */
+}
